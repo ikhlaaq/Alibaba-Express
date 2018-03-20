@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    background-image: url(../bgimg.png);
+    font-family: 'Open Sans', sans-serif;
+    
+
+
+}
+header {
+    text-align: center;
+    
+    color: burlywood;
+    text-shadow:2px 2px rgb(207, 241, 81);
+    padding: 20px;
+
+}
+  
+.content {
+    padding: 1em 4em;
+}
+.top {
+    margin-left: 10%;
+}
+.products .product-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.products .product-list .product {
+    margin: 1%;
+    height: 500px;
+    background-color: #FFF;
+}
+
+.products .product-list .product img {
+    width: 100%;
+}
+
+.products .product-list .product .product-content {
+    padding: 2%;
+}
+
+.products .product-list .product .product-content h4 small {
+    font-size: 10px;
+}
+
+.products .product-list .product button {
+    display: block;
+    margin: 2% auto;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    outline: none;
+}
+
+.cart .cart-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.cart .cart-list .item h4,
+.cart .cart-list .item .close {
+    display: inline;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(241, 212, 173, 0.616);
+    margin-top: 20px;
+    
+}
